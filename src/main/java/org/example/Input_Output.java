@@ -33,6 +33,22 @@ public class Input_Output {
     //  Аналогично, используя символьные потоки.
     //  В потоке числа должны разделяться пробелами.
 
+    public void textReaderStream(Reader reader) {
+        try () {
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void textWriterStream(Writer writer) {
+        try () {
+
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     //@TODO:
     //  Используя класс RandomAccessFile,
     //  прочитайте массив целых чисел, начиная с заданной позиции
